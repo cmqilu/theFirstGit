@@ -18,7 +18,7 @@
 	
 	$filename = dirname(__FILE__).'\\pic'.$index.'.jpg';
 	$contents = file_get_contents( $filename );
-	
+
 
 	
 	echo $contents;
